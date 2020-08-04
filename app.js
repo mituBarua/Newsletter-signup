@@ -37,7 +37,7 @@ app.use(bodyParser.urlencoded({extended:true}));
  const url =" https://us4.api.mailchimp.com/3.0/lists/847c50b6ca";
  const options ={
     method:"POST",
-    auth: "mitu:d578aac78e212d0539bf568b22978c65-us4"
+    auth:api
  }
 
  const request= https.request(url,options,function(response){
@@ -70,7 +70,3 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 
 
-//API KEEY
-//a8413838abda97f161205ebe6ff53715-us18
-//list id
-//18b0113e80
